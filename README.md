@@ -9,8 +9,8 @@ for each card.
 ### Usage
 
 ```
-$ ./combinations-generator.py --help
-usage: combinations-generator.py [-h] [-r] [-f FILE] [-n N]
+$ ./generator.py --help
+usage: generator.py [-h] [-r] [-f FILE] [-s N]
 
 Dobble card generator
 
@@ -20,45 +20,47 @@ optional arguments:
   -f FILE, --symbols_file FILE
                         File with symbols names (default:
                         list_of_projects.txt)
-  -n N, --number N      The prime number to base generator on. (default: 5)
+  -s N, --symbols_per_card N
+                        How many symbols per card (default: 4)
 ```
 
 You can use it with randomly generated strings or with symbols loaded from text file.
 
 ```
-$ ./combinations-generator.py  -r -n 3
-13 cards/symbols generated. Each card contains 4 symbols
-('4p', 'nU', '9v', 'Oh')
-('4p', 'F5', 'hZ', 'jE')
-('4p', 'kq', 'hb', 'dz')
-('4p', 'zj', 'uV', 'nW')
-('nU', 'F5', 'kq', 'zj')
-('nU', 'hZ', 'hb', 'uV')
-('nU', 'jE', 'dz', 'nW')
-('9v', 'F5', 'hb', 'nW')
-('9v', 'hZ', 'dz', 'zj')
-('9v', 'jE', 'kq', 'uV')
-('Oh', 'F5', 'dz', 'uV')
-('Oh', 'hZ', 'kq', 'nW')
-('Oh', 'jE', 'hb', 'zj')
+$ ./generator.py -s 4 -r
+13 cards with 4 symbols on each and 17 total symbols
+['kP', 'EW', 'BM', 'SR']
+['kP', '9S', 'RM', 'zB']
+['kP', '9R', '7U', '5F']
+['kP', 'hN', 'L1', 'vG']
+['EW', '9S', '9R', 'hN']
+['EW', 'RM', '7U', 'L1']
+['EW', 'zB', '5F', 'vG']
+['BM', '9S', '7U', 'vG']
+['BM', 'RM', '9R', 'DC']
+['BM', 'zB', 'hN', '4o']
+['SR', '9S', '5F', 'L1']
+['SR', 'RM', 'hN', 'fg']
+['SR', 'zB', '9R', 'gC']
+
 ```
 
 ```
-$ ./combinations-generator.py  -n 3 -f list_of_projects.txt
-13 cards/symbols generated. Each card contains 4 symbols
-('Click', 'ctypes', 'Django', 'Elsa')
-('Click', 'Flask', 'Git', 'Github')
-('Click', 'IPython', 'Jinja', 'Jupyter')
-('Click', 'Jython', 'Matplotlib', 'MicroPython')
-('ctypes', 'Flask', 'IPython', 'Jython')
-('ctypes', 'Git', 'Jinja', 'Matplotlib')
-('ctypes', 'Github', 'Jupyter', 'MicroPython')
-('Django', 'Flask', 'Jinja', 'MicroPython')
-('Django', 'Git', 'Jupyter', 'Jython')
-('Django', 'Github', 'IPython', 'Matplotlib')
-('Elsa', 'Flask', 'Jupyter', 'Matplotlib')
-('Elsa', 'Git', 'IPython', 'MicroPython')
-('Elsa', 'Github', 'Jinja', 'Jython')
+$ ./generator.py -s 4 -f list_of_projects.txt
+13 cards with 4 symbols on each and 17 total symbols
+['Ansible', 'AstroPy', 'Attrs', 'Batavia']
+['Ansible', 'BeeWare', 'Bottle', 'BuildBot']
+['Ansible', 'Celery', 'CherryPy', 'Chopsticks']
+['Ansible', 'Click', 'Coala', 'Cookiecutter']
+['AstroPy', 'BeeWare', 'Celery', 'Click']
+['AstroPy', 'Bottle', 'CherryPy', 'Coala']
+['AstroPy', 'BuildBot', 'Chopsticks', 'Cookiecutter']
+['Attrs', 'BeeWare', 'CherryPy', 'Cookiecutter']
+['Attrs', 'Bottle', 'Celery', 'Cython']
+['Attrs', 'BuildBot', 'Click', 'Django']
+['Batavia', 'BeeWare', 'Chopsticks', 'Coala']
+['Batavia', 'Bottle', 'Click', 'Elsa']
+['Batavia', 'BuildBot', 'Celery', 'Fabric']
 ```
 
 ## License
