@@ -1,0 +1,69 @@
+Projekt,License,Author,URL
+Ansible,Only with approval - approved (Max),,https://www.ansible.com/logos
+AstroPy,CC BY-SA 3.0,,https://github.com/astropy/astropy-logo
+Attrs,MIT,,https://github.com/python-attrs/attrs/blob/master/docs/_static/attrs_logo.png
+Batavia,"BSD 3-clause ""New"" or ""Revised"" License",,https://github.com/pybee/pybee.github.io/raw/lektor/content/project/projects/bridges/batavia/batavia.png
+BeeWare,3 clause BSD,,https://github.com/pybee/pybee.github.io/blob/lektor/assets/static/images/brutus-270.png
+Bottle,CC BY-NC-ND 3.0,,https://en.wikipedia.org/wiki/File:Bottle-logo.svg
+BuildBot,Approved for use for the game (Max),,https://github.com/buildbot/buildbot-website/blob/master/src/img/nut.xcf
+Celery,CC BY-SA 4.0,,https://github.com/celery/celery/blob/master/docs/images/celery_512.png
+CherryPy,CC BY 3.0,,https://github.com/cherrypy/cherrypy.github.io/blob/master/images/cherrypy.png
+Chopsticks,Apache License 2.0,,https://github.com/lordmauve/chopsticks/blob/master/media/logo.svgz
+Click,"BSD 3-clause ""New"" or ""Revised"" License",,https://github.com/pallets/click/blob/master/artwork/logo.svg
+Coala,CC0,,https://github.com/coala/artwork/blob/master/artwork/logo/coala_color.svg
+Cookiecutter,"BSD 3-clause ""New"" or ""Revised"" License",,https://github.com/audreyr/cookiecutter/blob/master/logo/cookiecutter-logo.svg
+Cython,Derived from Python logo,,http://cython.org/logo/cython-logo-C.svg
+Django,"BSD 3-clause ""New"" or ""Revised"" License",,https://github.com/django/djangoproject.com/blob/master/djangoproject/static/img/logos/django-logo-positive.svg
+Elsa,Public Domain,,https://github.com/pyvec/elsa/blob/master/logo/elsa.svg
+Fabric,"BSD 2-clause ""Simplified"" License",,https://github.com/fabric/fabric/blob/master/sites/_shared_static/logo.png
+Flask,Flask Artwork License - http://flask.pocoo.org/docs/0.12/license/#flask-artwork-license,,http://flask.pocoo.org/community/logos/
+IPython,CC BY-SA 3.0,,https://github.com/ipython/ipython-website/blob/master/logos/IPy_Droid-Sans-Mono-Logo.svg
+Jinja,BSD,,https://github.com/pallets/jinja/blob/master/artwork/jinjalogo.svg
+Jupyter,"BSD 3-clause ""New"" or ""Revised"" License",,https://github.com/jupyter/design/blob/master/logos/Square%20Logo/squarelogo-greytext-orangebody-greymoons/squarelogo-greytext-orangebody-greymoons.svg
+Jython,CC SA 1.0,Jesse Ross,http://jesseross.com/clients/jython/images/jy_logo_large_c.png
+Kivy,CC BY-NC-ND,Vincent Autin,https://github.com/kivy/kivy-website/blob/b36dbc5dbb74e18ae79120cc9fa1a8b85b1dc3aa/logos/kivy-logo-black-512.png
+lxml,BSD,,https://github.com/lxml/lxml/blob/master/doc/html/tagpython-big.png
+mako,MIT,,https://github.com/zzzeek/mako/blob/master/doc/build/static/makoLogo.png
+Matplotlib,https://github.com/matplotlib/matplotlib/blob/master/LICENSE/LICENSE,,https://github.com/matplotlib/matplotlib/blob/master/doc/_static/logo2.svg
+MicroPython,MIT,,https://github.com/micropython/micropython/tree/master/logo
+Ninja IDE,GPLv3 - need to ask for exception,,https://github.com/ninja-ide/ninja-ide/blob/master/icon.png
+Numpy,"BSD 3-clause ""New"" or ""Revised"" License",,https://github.com/numpy/numpy/blob/master/branding/icons/numpylogo.svg
+OpenStack,https://www.openstack.org/brand/openstack-logo/,,
+Pandas,"BSD 3-clause ""New"" or ""Revised"" License",,https://github.com/pandas-dev/pandas/blob/master/doc/logo/pandas_logo.svg
+peewee,MIT,,https://github.com/coleifer/peewee/blob/master/docs/peewee-logo.png
+pillow,derived from Python logo,Alastair Houghton,https://github.com/python-pillow/pillow-logo/blob/master/Pillow%20Logo.png
+Plone,see usage guidelines,,https://plone.org/foundation/copyright-licensing-logo
+PonyORM,Apache License 2.0?,,https://github.com/ponyorm/pony-doc/blob/master/_static/logo.png
+PyCon CZ,MIT,,https://github.com/pyvec/cz.pycon.org-2017/blob/master/pyconcz_2017/static/img/pyconlogo.svg
+PyCon PL,Derived from Python logo,,https://pbs.twimg.com/profile_images/404890917/image_thumb_400x400.png
+PyCon SK,MIT,,https://github.com/pyconsk/spy.python.sk/blob/master/img/logo/spy-logo.svg
+Pygame,Available for use,TheCorruptor,http://www.pygame.org/docs/logos.html
+Pyglet,BSD,Alex Holkner,https://bitbucket.org/pyglet/pyglet/src/c73374b146bd012af5e3e5544685b7a03b46a003/doc/_static/logo5.svg?at=default&fileviewer=file-view-default
+PyLadies,specific - https://github.com/pyladies/pyladies-assets/blob/master/README.md,,https://github.com/pyladies/pyladies-assets/tree/master/wordmark
+pymunk,MIT,,https://github.com/viblo/pymunk/blob/master/docs/pymunk_logo.svg
+PyPI,owners is PSF,,https://pypi.org/static/images/logo-large.72ad8bf1.svg
+PyPy,CC BY-SA 3.0,,http://pypy.org/image/pypy-logo.png
+Pyramid,https://trypyramid.com/media-artwork.html,,https://trypyramid.com/media-artwork.html
+PySide,CC-BY,Henri Vikki,https://github.com/pyside/pyside.github.io/blob/master/docs/pyside/_static/pysidelogo.png
+Pytest,MIT,,https://github.com/pytest-dev/pytest/blob/master/doc/en/img/pytest1.png
+Python,non-commercial uses to promote the Python programming language are allowed,,https://www.python.org/static/community_logos/python-logo-generic.svg
+PyTorch,https://github.com/pytorch/pytorch/blob/master/LICENSE,,https://github.com/pytorch/pytorch/blob/master/docs/source/_static/img/pytorch-logo-dark.svg
+Pyvo,:-),,https://github.com/pyvec/pyvo.cz/blob/master/pyvocz/static/images/krygl.png
+Read the docs,MIT,,https://github.com/rtfd/readthedocs.org/tree/master/docs/img
+Requests,Apache 2.0,,https://github.com/requests/requests/tree/master/docs/_static
+SaltStack,Apache 2.0,,https://github.com/saltstack/salt/tree/develop/doc/_static
+scipy,3 clause BSD,,https://github.com/scipy/scipy/blob/master/doc/source/_static/scipyshiny_small.png
+Sentry,,,https://sentry.io/branding/
+Sphinx,BSD (2-clause),Panos Laganakos,https://github.com/sphinx-doc/sphinx/blob/master/doc/_static/sphinx.png
+Spyder,MIT,,https://github.com/spyder-ide/spyder/blob/master/doc/spyder_bbg.png
+SunPy,BSD,,https://github.com/sunpy/sunpy/tree/master/docs/logo
+SymPy,BSD,,https://github.com/sympy/sympy/tree/master/doc/src/logo
+Toga,"BSD 3-clause ""New"" or ""Revised"" License",,https://github.com/pybee/toga/blob/master/docs/images/toga.png
+Tornado,Apache 2.0,,https://github.com/tornadoweb/tornado/blob/master/docs/tornado.png
+tox,Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International,sean@tox.im,https://github.com/Tox/Tox-Logo/blob/master/Logo_Vector.svg
+Tryton,,Public License,https://en.wikipedia.org/wiki/Tryton#/media/File:Tryton_banner.svg
+TurboGears,https://commons.wikimedia.org/wiki/File:TgGear.png,ZephyrXero,https://github.com/TurboGears/tg2docs/blob/master/docs/_static/g_gear.png
+twisted,MIT,,https://en.wikipedia.org/wiki/Twisted_(software)#/media/File:Twisted_Logo_(software).svg
+VOC,"BSD 3-clause ""New"" or ""Revised"" License",,https://github.com/pybee/voc/blob/master/docs/_static/logo.png
+WTForms,BSD (3-clause),,https://github.com/wtforms/wtforms/blob/master/docs/_static/wtforms.png
+ZODB,https://github.com/zopefoundation/ZODB/blob/master/LICENSE.txt,,https://github.com/zopefoundation/ZODB/blob/master/doc/zodb.svg
