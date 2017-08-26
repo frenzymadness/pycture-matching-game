@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200"
+   height="72"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.91 r13725"
+   version="1.0"
+   inkscape:export-filename="C:\Users\vb\Desktop\pymunk_384.png"
+   inkscape:export-xdpi="232.9993"
+   inkscape:export-ydpi="232.9993"
+   sodipodi:docname="pymunk_logo.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 27.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="153 : 27.5 : 1"
+       inkscape:persp3d-origin="76.5 : 18.333333 : 1"
+       id="perspective27" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="6.2402173"
+     inkscape:cx="100"
+     inkscape:cy="36"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,17)">
+    <path
+       sodipodi:type="arc"
+       style="fill:#008013;fill-opacity:1;stroke:#000000;stroke-width:16.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3335"
+       sodipodi:cx="1697.1428"
+       sodipodi:cy="583.79077"
+       sodipodi:rx="145.71428"
+       sodipodi:ry="145.71428"
+       d="m 1842.8447,585.69547 a 145.71428,145.71428 0 0 1 -147.595,143.79728 145.71428,145.71428 0 0 1 -143.809,-147.58344 145.71428,145.71428 0 0 1 147.572,-143.82082 145.71428,145.71428 0 0 1 143.8326,147.56051"
+       sodipodi:start="0.013071863"
+       sodipodi:end="6.2959382"
+       sodipodi:open="true"
+       transform="matrix(0.05277191,0,0,0.05277191,-45.568417,-14.557701)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#008013;fill-opacity:1;stroke:#000000;stroke-width:16.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3339"
+       sodipodi:cx="1697.1428"
+       sodipodi:cy="583.79077"
+       sodipodi:rx="145.71428"
+       sodipodi:ry="145.71428"
+       d="m 1842.8447,585.69547 a 145.71428,145.71428 0 0 1 -147.595,143.79728 145.71428,145.71428 0 0 1 -143.809,-147.58344 145.71428,145.71428 0 0 1 147.572,-143.82082 145.71428,145.71428 0 0 1 143.8326,147.56051"
+       sodipodi:start="0.013071863"
+       sodipodi:end="6.2959382"
+       sodipodi:open="true"
+       transform="matrix(0.05277191,0,0,0.05277191,-69.262946,-33.416442)" />
+    <path
+       transform="matrix(0.05277191,0,0,0.05277191,-54.98054,-27.343523)"
+       sodipodi:open="true"
+       sodipodi:end="6.2959382"
+       sodipodi:start="0.013071863"
+       d="m 1842.8447,585.69547 a 145.71428,145.71428 0 0 1 -147.595,143.79728 145.71428,145.71428 0 0 1 -143.809,-147.58344 145.71428,145.71428 0 0 1 147.572,-143.82082 145.71428,145.71428 0 0 1 143.8326,147.56051"
+       sodipodi:ry="145.71428"
+       sodipodi:rx="145.71428"
+       sodipodi:cy="583.79077"
+       sodipodi:cx="1697.1428"
+       id="path3337"
+       style="fill:#008013;fill-opacity:1;stroke:#000000;stroke-width:16.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#f31700;stroke-width:2.63859582;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3329"
+       width="21.259544"
+       height="21.259544"
+       x="4.6177487"
+       y="27.094376"
+       ry="0"
+       inkscape:export-filename="C:\code\pymunk\trunk\examples\rect3329.png"
+       inkscape:export-xdpi="270"
+       inkscape:export-ydpi="270" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#f31700;stroke-width:2.63859582;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3333"
+       width="21.259544"
+       height="21.259544"
+       x="15.322898"
+       y="5.6840544"
+       ry="0" />
+    <rect
+       ry="0"
+       y="27.094376"
+       x="25.877289"
+       height="21.259544"
+       width="21.259544"
+       id="rect3331"
+       style="fill:#ffffff;fill-opacity:1;stroke:#f31700;stroke-width:2.63859582;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#008013;fill-opacity:1;stroke:#000000;stroke-width:16.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3343"
+       sodipodi:cx="1697.1428"
+       sodipodi:cy="583.79077"
+       sodipodi:rx="145.71428"
+       sodipodi:ry="145.71428"
+       d="m 1842.8447,585.69547 a 145.71428,145.71428 0 0 1 -147.595,143.79728 145.71428,145.71428 0 0 1 -143.809,-147.58344 145.71428,145.71428 0 0 1 147.572,-143.82082 145.71428,145.71428 0 0 1 143.8326,147.56051"
+       sodipodi:start="0.013071863"
+       sodipodi:end="6.2959382"
+       sodipodi:open="true"
+       transform="matrix(0.05277191,0,0,0.05277191,-44.099221,1.0665514)" />
+    <path
+       transform="matrix(0.05277191,0,0,0.05277191,-56.473794,10.81937)"
+       sodipodi:open="true"
+       sodipodi:end="6.2959382"
+       sodipodi:start="0.013071863"
+       d="m 1842.8447,585.69547 a 145.71428,145.71428 0 0 1 -147.595,143.79728 145.71428,145.71428 0 0 1 -143.809,-147.58344 145.71428,145.71428 0 0 1 147.572,-143.82082 145.71428,145.71428 0 0 1 143.8326,147.56051"
+       sodipodi:ry="145.71428"
+       sodipodi:rx="145.71428"
+       sodipodi:cy="583.79077"
+       sodipodi:cx="1697.1428"
+       id="path3362"
+       style="fill:#008013;fill-opacity:1;stroke:#000000;stroke-width:16.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#008013;fill-opacity:1;stroke:#000000;stroke-width:16.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3364"
+       sodipodi:cx="1697.1428"
+       sodipodi:cy="583.79077"
+       sodipodi:rx="145.71428"
+       sodipodi:ry="145.71428"
+       d="m 1842.8447,585.69547 a 145.71428,145.71428 0 0 1 -147.595,143.79728 145.71428,145.71428 0 0 1 -143.809,-147.58344 145.71428,145.71428 0 0 1 147.572,-143.82082 145.71428,145.71428 0 0 1 143.8326,147.56051"
+       sodipodi:start="0.013071863"
+       sodipodi:end="6.2959382"
+       sodipodi:open="true"
+       transform="matrix(0.05277191,0,0,0.05277191,-72.333638,10.81466)"
+       inkscape:export-xdpi="270"
+       inkscape:export-ydpi="270"
+       inkscape:export-filename="C:\code\pymunk\trunk\examples\path3364.png" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#008013;fill-opacity:1;stroke:#000000;stroke-width:16.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3368"
+       sodipodi:cx="1697.1428"
+       sodipodi:cy="583.79077"
+       sodipodi:rx="145.71428"
+       sodipodi:ry="145.71428"
+       d="m 1842.8447,585.69547 a 145.71428,145.71428 0 0 1 -147.595,143.79728 145.71428,145.71428 0 0 1 -143.809,-147.58344 145.71428,145.71428 0 0 1 147.572,-143.82082 145.71428,145.71428 0 0 1 143.8326,147.56051"
+       sodipodi:start="0.013071863"
+       sodipodi:end="6.2959382"
+       sodipodi:open="true"
+       transform="matrix(0.08465385,0,0,0.05196035,-122.9681,-28.20057)"
+       inkscape:export-filename="C:\code\pymunk\trunk\examples\path3392b.png"
+       inkscape:export-xdpi="232.9993"
+       inkscape:export-ydpi="232.9993" />
+    <path
+       transform="matrix(0.07251807,-0.02051282,0.02442251,0.09679253,-58.616082,9.4094902)"
+       sodipodi:open="true"
+       sodipodi:end="6.2959382"
+       sodipodi:start="0.013071863"
+       d="m 1002.8542,101.41912 a 34.285713,37.142857 0 0 1 -34.72822,36.65421 34.285713,37.142857 0 0 1 -33.83742,-37.61931 34.285713,37.142857 0 0 1 34.72282,-36.660209 34.285713,37.142857 0 0 1 33.84292,37.613469"
+       sodipodi:ry="37.142857"
+       sodipodi:rx="34.285713"
+       sodipodi:cy="100.93361"
+       sodipodi:cx="968.57141"
+       id="path3370"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="C:\code\pymunk\trunk\examples\path3392b.png"
+       inkscape:export-xdpi="232.9993"
+       inkscape:export-ydpi="232.9993" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path3382"
+       sodipodi:cx="968.57141"
+       sodipodi:cy="100.93361"
+       sodipodi:rx="34.285713"
+       sodipodi:ry="37.142857"
+       d="m 1002.8542,101.41912 a 34.285713,37.142857 0 0 1 -34.72822,36.65421 34.285713,37.142857 0 0 1 -33.83742,-37.61931 34.285713,37.142857 0 0 1 34.72282,-36.660209 34.285713,37.142857 0 0 1 33.84292,37.613469"
+       sodipodi:start="0.013071863"
+       sodipodi:end="6.2959382"
+       sodipodi:open="true"
+       transform="matrix(0.06549103,0.0274829,-0.02610833,0.09128204,-33.75314,-36.427591)"
+       inkscape:export-filename="C:\code\pymunk\trunk\examples\path3392b.png"
+       inkscape:export-xdpi="232.9993"
+       inkscape:export-ydpi="232.9993" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="path3388"
+       sodipodi:cx="1173.3553"
+       sodipodi:cy="156.3253"
+       sodipodi:rx="24.306795"
+       sodipodi:ry="25.41165"
+       d="m 1197.6601,156.65747 a 24.306795,25.41165 0 0 1 -24.6205,25.07734 24.306795,25.41165 0 0 1 -23.989,-25.73762 24.306795,25.41165 0 0 1 24.6167,-25.08145 24.306795,25.41165 0 0 1 23.9929,25.73363"
+       sodipodi:start="0.013071863"
+       sodipodi:end="6.2959382"
+       sodipodi:open="true"
+       transform="matrix(0.0579533,0,0,0.05870107,-41.636384,-8.4638113)"
+       inkscape:export-filename="C:\code\pymunk\trunk\examples\path3392b.png"
+       inkscape:export-xdpi="232.9993"
+       inkscape:export-ydpi="232.9993" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.26282728px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 17.12074,4.8612942 c 1.404194,0.9877931 4.375271,1.7598451 6.801797,0"
+       id="path3392"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\code\pymunk\trunk\examples\path3392b.png"
+       inkscape:export-xdpi="232.9993"
+       inkscape:export-ydpi="232.9993" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.26282728px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 20.465078,6.0724257 c 0,2.9198862 2.2e-4,1.7518593 2.2e-4,4.7819053 0,1.187798 -0.894265,3.112533 -2.577511,3.610043"
+       id="path2413"
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\code\pymunk\trunk\examples\path_t.png"
+       inkscape:export-xdpi="232.9993"
+       inkscape:export-ydpi="232.9993" />
+    <path
+       sodipodi:nodetypes="ccc"
+       id="path2417"
+       d="m 20.474027,6.0725684 c 0,2.9198849 -2.22e-4,1.751858 -2.22e-4,4.7819026 0,1.187798 0.894266,3.112534 2.577512,3.610045"
+       style="fill:none;stroke:#000000;stroke-width:1.26282728px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\code\pymunk\trunk\examples\path_t.png"
+       inkscape:export-xdpi="232.9993"
+       inkscape:export-ydpi="232.9993" />
+    <path
+       transform="matrix(0.0579533,0,0,0.05870107,-53.059217,-8.3897974)"
+       sodipodi:open="true"
+       sodipodi:end="6.2959382"
+       sodipodi:start="0.013071863"
+       d="m 1197.6601,156.65747 a 24.306795,25.41165 0 0 1 -24.6205,25.07734 24.306795,25.41165 0 0 1 -23.989,-25.73762 24.306795,25.41165 0 0 1 24.6167,-25.08145 24.306795,25.41165 0 0 1 23.9929,25.73363"
+       sodipodi:ry="25.41165"
+       sodipodi:rx="24.306795"
+       sodipodi:cy="156.3253"
+       sodipodi:cx="1173.3553"
+       id="path2419"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="C:\code\pymunk\trunk\examples\path3392b.png"
+       inkscape:export-xdpi="232.9993"
+       inkscape:export-ydpi="232.9993" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="55.04538"
+       y="39.607887"
+       id="text3367"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3369"
+         x="55.04538"
+         y="39.607887"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35.875px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold'">pymunk</tspan></text>
+  </g>
+</svg>
