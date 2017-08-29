@@ -28,7 +28,6 @@ MicroPython
 Ninja IDE
 Numpy
 OpenStack
-Pandas
 peewee
 pillow
 Plone
@@ -36,6 +35,7 @@ PonyORM
 PyCon CZ
 PyCon PL
 PyCon SK
+PyData
 Pygame
 Pyglet
 PyLadies
@@ -55,11 +55,11 @@ scipy
 Sentry
 Sphinx
 Spyder
+SQLAlchemy
 SunPy
 SymPy
 Toga
 Tornado
-tox
 Tryton
 TurboGears
 twisted
