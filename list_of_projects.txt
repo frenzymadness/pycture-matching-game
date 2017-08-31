@@ -1,7 +1,6 @@
 Ansible
 AstroPy
 Attrs
-Batavia
 BeeWare
 Bottle
 BuildBot
@@ -29,7 +28,6 @@ Ninja IDE
 Numpy
 OpenStack
 peewee
-pillow
 Plone
 PonyORM
 PyCon CZ
@@ -43,13 +41,11 @@ pymunk
 PyPI
 PyPy
 Pyramid
-PySide
 Pytest
 Python
 PyTorch
 Pyvo
 Read the docs
-Requests
 SaltStack
 scipy
 Sentry
@@ -65,4 +61,3 @@ TurboGears
 twisted
 VOC
 WTForms
-ZODB

@@ -3,387 +3,387 @@
         "Ansible",
         "AstroPy",
         "Attrs",
-        "Batavia",
         "BeeWare",
         "Bottle",
-        "BuildBot"
+        "BuildBot",
+        "Celery"
     ],
     [
         "Ansible",
-        "Celery",
         "CherryPy",
         "Chopsticks",
         "Click",
         "Coala",
-        "Cookiecutter"
+        "Cookiecutter",
+        "Cython"
     ],
     [
         "Ansible",
-        "Cython",
         "Django",
         "Elsa",
         "Fabric",
         "Flask",
-        "IPython"
+        "IPython",
+        "Jinja"
     ],
     [
         "Ansible",
-        "Jinja",
         "Jupyter",
         "Jython",
         "Kivy",
         "lxml",
-        "mako"
+        "mako",
+        "Matplotlib"
     ],
     [
         "Ansible",
-        "Matplotlib",
         "MicroPython",
         "Ninja IDE",
         "Numpy",
         "OpenStack",
-        "Pandas"
+        "peewee",
+        "Plone"
     ],
     [
         "Ansible",
-        "peewee",
-        "pillow",
-        "Plone",
         "PonyORM",
         "PyCon CZ",
-        "PyCon PL"
-    ],
-    [
-        "Ansible",
+        "PyCon PL",
         "PyCon SK",
-        "Pygame",
-        "Pyglet",
-        "PyLadies",
-        "pymunk",
-        "PyPI"
-    ],
-    [
-        "AstroPy",
-        "Celery",
-        "Cython",
-        "Jinja",
-        "Matplotlib",
-        "peewee",
-        "PyCon SK"
-    ],
-    [
-        "AstroPy",
-        "CherryPy",
-        "Django",
-        "Jupyter",
-        "MicroPython",
-        "pillow",
+        "PyData",
         "Pygame"
     ],
     [
-        "AstroPy",
-        "Chopsticks",
-        "Elsa",
-        "Jython",
-        "Ninja IDE",
-        "Plone",
-        "Pyglet"
-    ],
-    [
-        "AstroPy",
-        "Click",
-        "Fabric",
-        "Kivy",
-        "Numpy",
-        "PonyORM",
-        "PyLadies"
-    ],
-    [
-        "AstroPy",
-        "Coala",
-        "Flask",
-        "lxml",
-        "OpenStack",
-        "PyCon CZ",
-        "pymunk"
-    ],
-    [
-        "AstroPy",
-        "Cookiecutter",
-        "IPython",
-        "mako",
-        "Pandas",
-        "PyCon PL",
-        "PyPI"
-    ],
-    [
-        "Attrs",
-        "Celery",
-        "Django",
-        "Jython",
-        "Numpy",
-        "PyCon CZ",
-        "PyPI"
-    ],
-    [
-        "Attrs",
-        "CherryPy",
-        "Cython",
-        "Kivy",
-        "Ninja IDE",
-        "PyCon PL",
-        "pymunk"
-    ],
-    [
-        "Attrs",
-        "Chopsticks",
-        "Fabric",
-        "Jinja",
-        "MicroPython",
+        "Ansible",
+        "Pyglet",
+        "PyLadies",
+        "pymunk",
+        "PyPI",
         "PyPy",
         "Pyramid"
     ],
     [
+        "AstroPy",
+        "CherryPy",
+        "Django",
+        "Jupyter",
+        "MicroPython",
+        "PonyORM",
+        "Pyglet"
+    ],
+    [
+        "AstroPy",
+        "Chopsticks",
+        "Elsa",
+        "Jython",
+        "Ninja IDE",
+        "PyCon CZ",
+        "PyLadies"
+    ],
+    [
+        "AstroPy",
+        "Click",
+        "Fabric",
+        "Kivy",
+        "Numpy",
+        "PyCon PL",
+        "pymunk"
+    ],
+    [
+        "AstroPy",
+        "Coala",
+        "Flask",
+        "lxml",
+        "OpenStack",
+        "PyCon SK",
+        "PyPI"
+    ],
+    [
+        "AstroPy",
+        "Cookiecutter",
+        "IPython",
+        "mako",
+        "peewee",
+        "PyData",
+        "PyPy"
+    ],
+    [
+        "AstroPy",
+        "Cython",
+        "Jinja",
+        "Matplotlib",
+        "Plone",
+        "Pygame",
+        "Pyramid"
+    ],
+    [
+        "Attrs",
+        "CherryPy",
+        "Elsa",
+        "Kivy",
+        "OpenStack",
+        "PyData",
+        "Pyramid"
+    ],
+    [
+        "Attrs",
+        "Chopsticks",
+        "Django",
+        "lxml",
+        "Numpy",
+        "Pygame",
+        "PyPy"
+    ],
+    [
         "Attrs",
         "Click",
-        "Elsa",
+        "Flask",
         "Jupyter",
-        "Matplotlib",
-        "PySide",
-        "Pytest"
+        "Ninja IDE",
+        "Pytest",
+        "Python"
     ],
     [
         "Attrs",
         "Coala",
-        "IPython",
-        "peewee",
-        "Pygame",
-        "Python",
-        "PyTorch"
+        "Fabric",
+        "Jython",
+        "MicroPython",
+        "PyTorch",
+        "Pyvo"
     ],
     [
         "Attrs",
         "Cookiecutter",
-        "Flask",
-        "pillow",
-        "PyCon SK",
-        "Pyvo",
-        "Read the docs"
-    ],
-    [
-        "Batavia",
-        "Celery",
-        "Elsa",
-        "Kivy",
-        "MicroPython",
-        "Python",
-        "Pyvo"
-    ],
-    [
-        "Batavia",
-        "CherryPy",
-        "Fabric",
-        "Jython",
-        "Matplotlib",
-        "PyTorch",
-        "Read the docs"
-    ],
-    [
-        "Batavia",
-        "Chopsticks",
-        "Cython",
-        "Jupyter",
-        "Numpy",
-        "Requests",
+        "Jinja",
+        "PonyORM",
+        "PyLadies",
+        "Read the docs",
         "SaltStack"
     ],
     [
-        "Batavia",
-        "Click",
-        "Django",
-        "Jinja",
-        "Ninja IDE",
+        "Attrs",
+        "Cython",
+        "IPython",
+        "PyCon CZ",
+        "Pyglet",
         "scipy",
         "Sentry"
     ],
     [
-        "Batavia",
-        "Coala",
-        "mako",
-        "pillow",
-        "Pyglet",
-        "PyPy",
-        "PySide"
-    ],
-    [
-        "Batavia",
-        "Cookiecutter",
+        "BeeWare",
+        "CherryPy",
+        "Fabric",
         "lxml",
-        "peewee",
-        "PyLadies",
-        "Pyramid",
-        "Pytest"
+        "Ninja IDE",
+        "Read the docs",
+        "scipy"
     ],
     [
         "BeeWare",
-        "Celery",
-        "Fabric",
-        "Jupyter",
-        "Ninja IDE",
+        "Chopsticks",
+        "Flask",
+        "Kivy",
+        "MicroPython",
+        "SaltStack",
+        "Sentry"
+    ],
+    [
+        "BeeWare",
+        "Click",
+        "Django",
+        "Jython",
+        "OpenStack",
         "Sphinx",
         "Spyder"
     ],
     [
         "BeeWare",
-        "CherryPy",
+        "Coala",
         "Elsa",
-        "Jinja",
+        "Jupyter",
         "Numpy",
+        "SQLAlchemy",
+        "SunPy"
+    ],
+    [
+        "BeeWare",
+        "Cookiecutter",
+        "Matplotlib",
+        "PyCon CZ",
+        "pymunk",
+        "Pytest",
+        "PyTorch"
+    ],
+    [
+        "BeeWare",
+        "Cython",
+        "mako",
+        "PonyORM",
+        "PyPI",
+        "Python",
+        "Pyvo"
+    ],
+    [
+        "Bottle",
+        "CherryPy",
+        "Flask",
+        "Jython",
+        "Numpy",
+        "SymPy",
+        "Toga"
+    ],
+    [
+        "Bottle",
+        "Chopsticks",
+        "Fabric",
+        "Jupyter",
+        "OpenStack",
+        "Tornado",
+        "Tryton"
+    ],
+    [
+        "Bottle",
+        "Click",
+        "Elsa",
+        "lxml",
+        "MicroPython",
+        "TurboGears",
+        "twisted"
+    ],
+    [
+        "Bottle",
+        "Coala",
+        "Django",
+        "Kivy",
+        "Ninja IDE",
+        "VOC",
+        "WTForms"
+    ],
+    [
+        "Bottle",
+        "Cookiecutter",
+        "Plone",
+        "PyCon PL",
+        "Pyglet",
+        "Python",
+        "Sphinx"
+    ],
+    [
+        "Bottle",
+        "Cython",
+        "peewee",
+        "PyCon SK",
+        "PyLadies",
+        "Pytest",
+        "Spyder"
+    ],
+    [
+        "BuildBot",
+        "CherryPy",
+        "IPython",
+        "Matplotlib",
+        "PyCon PL",
+        "PyLadies",
+        "Pyvo"
+    ],
+    [
+        "BuildBot",
+        "Chopsticks",
+        "Jinja",
+        "mako",
+        "PyCon SK",
+        "Pyglet",
+        "PyTorch"
+    ],
+    [
+        "BuildBot",
+        "Click",
+        "peewee",
+        "PonyORM",
+        "Pyramid",
+        "scipy",
+        "SQLAlchemy"
+    ],
+    [
+        "BuildBot",
+        "Coala",
+        "Plone",
+        "PyCon CZ",
+        "PyPy",
+        "Read the docs",
+        "Spyder"
+    ],
+    [
+        "BuildBot",
+        "Cookiecutter",
+        "Django",
+        "PyPI",
+        "Sentry",
         "SunPy",
         "SymPy"
     ],
     [
-        "BeeWare",
-        "Chopsticks",
-        "Django",
-        "Kivy",
-        "Matplotlib",
-        "Toga",
-        "Tornado"
-    ],
-    [
-        "BeeWare",
-        "Click",
+        "BuildBot",
         "Cython",
-        "Jython",
-        "MicroPython",
-        "tox",
-        "Tryton"
-    ],
-    [
-        "BeeWare",
-        "Coala",
-        "Pandas",
-        "Plone",
-        "PyCon SK",
-        "Pyramid",
-        "Requests"
-    ],
-    [
-        "BeeWare",
-        "Cookiecutter",
-        "OpenStack",
-        "PonyORM",
-        "Pygame",
-        "PyPy",
-        "SaltStack"
-    ],
-    [
-        "Bottle",
-        "Celery",
-        "Flask",
-        "mako",
-        "Plone",
-        "Pygame",
-        "Pytest"
-    ],
-    [
-        "Bottle",
-        "CherryPy",
-        "IPython",
-        "lxml",
-        "PonyORM",
-        "PyCon SK",
-        "PySide"
-    ],
-    [
-        "Bottle",
-        "Chopsticks",
-        "OpenStack",
-        "peewee",
-        "PyPI",
-        "Pyvo",
-        "scipy"
-    ],
-    [
-        "Bottle",
-        "Click",
-        "Pandas",
-        "pillow",
+        "Elsa",
         "pymunk",
-        "Python",
-        "SaltStack"
+        "SaltStack",
+        "Sphinx",
+        "Toga"
     ],
     [
-        "Bottle",
-        "Coala",
-        "Cython",
-        "PyLadies",
-        "Read the docs",
-        "Sentry",
-        "Sphinx"
-    ],
-    [
-        "Bottle",
-        "Cookiecutter",
-        "Django",
-        "Pyglet",
-        "PyTorch",
-        "Requests",
-        "Spyder"
-    ],
-    [
-        "BuildBot",
         "Celery",
-        "IPython",
-        "OpenStack",
-        "pillow",
-        "PyLadies",
-        "Requests"
-    ],
-    [
-        "BuildBot",
         "CherryPy",
-        "Flask",
-        "Pandas",
+        "Jinja",
         "peewee",
-        "Pyglet",
-        "Sentry"
-    ],
-    [
-        "BuildBot",
-        "Chopsticks",
-        "lxml",
-        "PyCon PL",
-        "Pygame",
-        "Read the docs",
-        "Spyder"
-    ],
-    [
-        "BuildBot",
-        "Click",
-        "mako",
         "PyCon CZ",
-        "PyCon SK",
-        "PyTorch",
+        "PyPI",
         "Sphinx"
     ],
     [
-        "BuildBot",
-        "Coala",
-        "Django",
+        "Celery",
+        "Chopsticks",
+        "IPython",
+        "Plone",
         "PonyORM",
-        "Pytest",
-        "Pyvo",
+        "pymunk",
         "SunPy"
     ],
     [
-        "BuildBot",
+        "Celery",
+        "Click",
+        "mako",
+        "Pygame",
+        "PyLadies",
+        "Sentry",
+        "Toga"
+    ],
+    [
+        "Celery",
+        "Coala",
+        "Matplotlib",
+        "PyData",
+        "Pyglet",
+        "SaltStack",
+        "SymPy"
+    ],
+    [
+        "Celery",
         "Cookiecutter",
+        "Elsa",
+        "PyCon SK",
+        "Pyvo",
+        "scipy",
+        "Tornado"
+    ],
+    [
+        "Celery",
         "Cython",
-        "Plone",
-        "PySide",
-        "Python",
-        "scipy"
+        "Django",
+        "PyCon PL",
+        "PyTorch",
+        "Read the docs",
+        "SQLAlchemy"
     ]
 ]
