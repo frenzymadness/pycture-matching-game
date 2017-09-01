@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
+import json
 from os import path
-from itertools import combinations
 from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
 from string import ascii_uppercase, ascii_lowercase, digits
 from random import choice
@@ -18,87 +18,70 @@ def random_symbols(num):
 
 
 def load_symbols(num, filename=None):
-    if filename:
+    if filename is not None:
         symbols_names_path = path.join(path.dirname(path.abspath(__file__)),
                                        filename)
 
         with open(symbols_names_path) as fh:
-            return fh.read().split('\n')[:num]
+            return iter(fh.read().split('\n')[:num])
     else:
-        return random_symbols(num)
+        return iter(random_symbols(num))
 
 
-def get_column(matrix, column):
-    return [row[column] for row in matrix]
+# Scalar multiply a 3-tuple's elements (in field F, i.e. multiply modulo N)
+def scalar_multiply(order, n, coords):
+    return tuple(((coords[i] * n) % order for i in range(3)))
 
 
-def check_validity(matrix, maximum, row_num):
-
-    # Stop, if we have more than allowed symbols on one card
-    for row in matrix[:row_num + 1]:
-        if sum(row) > maximum:
-            return False, 'row'
-
-    # Stop if we have one symbol on more cards than allowed
-    for x in range(len(matrix[0])):
-        if sum(get_column(matrix, x)) > maximum:
-            return False, 'column'
-
-    all_pairs = list(combinations(matrix[:row_num + 1], 2))
-
-    # Stop, if some pair of cards has more than one in common
-    for row1, row2 in all_pairs:
-        common = 0
-        for x, y in zip(row1, row2):
-            if x == y == 1:
-                common += 1
-        if common > 1:
-            return False, 'more than one in common {} {} - {} and {} '.format(matrix.index(row1), matrix.index(row2), row1, row2)
-
-    return True, None
+def is_representative(coords, P2F):
+    return coords in P2F
 
 
-def generate_matrix(symbols_per_card):
-    add_symbols = 0
-    while True:
-        # Calculate matrix size and fill first row
-        cards = symbols_per_card * (symbols_per_card - 1) + 1
-        symbols = cards + add_symbols
-        matrix = [list(map(int, list('0' * symbols))) for _ in range(cards)]
-        first_row = list('1' * symbols_per_card) + list('0' * (symbols - symbols_per_card))
-        first_row = list(map(int, first_row))
-        matrix[0] = first_row
-
-        # Try to change every cell and check validity
-        for x in range(1, cards):
-            for y in range(symbols):
-                matrix[x][y] = 1
-                valid, reason = check_validity(matrix, symbols_per_card, x)
-                if not valid:
-                    matrix[x][y] = 0
-                    if reason == 'row':
-                        break
-            # Check if we have right amount of symbols on the last card
-            # if not, extend number of symbols and start again
-            if sum(matrix[x]) != symbols_per_card:
-                add_symbols += 1
-                break
-        else:
-            return matrix
+def get_equvalence_class(order, coords, P2F):
+    """Get representative vector of "coords"'s equivalence class"""
+    for n in range(order):
+        candidate = scalar_multiply(order, n, coords)
+        if is_representative(candidate, P2F):
+            return candidate
+    assert False, "couldn't get equivalence class"
 
 
-def generate_cards(matrix, symbols):
-    if len(matrix[0]) > len(symbols):
-        raise ValueError(
-            'Not enough symbols provided. Minimum is {}'.format(len(matrix[0]))
-        )
+def generate_projection(order):
+    # Get P^2(F) -- items are the representative vectors
+    P2F = {(0, 0, 1)}
+    P2F.update((0, 1, x) for x in range(order))
+    P2F.update((1, x, y) for x in range(order) for y in range(order))
 
+    P2F = sorted(P2F)
+
+    lines = set()
+    for x in P2F:
+        for y in P2F:
+            if x <= y:
+                continue
+            line = set()
+            for kx in range(order):
+                for ky in range(order):
+                    if kx == ky == 0:
+                        continue
+                    tp = tuple(kx * x[i] + ky * y[i] for i in range(3))
+                    line.add(get_equvalence_class(order, tp, P2F))
+            lines.add(tuple(sorted(line)))
+    return lines
+
+
+def generate_cards(projection, symbols):
+    mapping = {}
     cards = []
-    for row in matrix:
+    for line in projection:
         card = []
-        for num, x in enumerate(row):
-            if x == 1:
-                card.append(symbols[num])
+        for point in line:
+            try:
+                card.append(mapping[point])
+            except KeyError:
+                next_project = next(symbols)
+                mapping[point] = next_project
+                card.append(next_project)
         cards.append(card)
 
     return cards
@@ -117,23 +100,30 @@ if __name__ == '__main__':
     parser.add_argument('-f', '--symbols_file', dest='symbols_file',
                         metavar='FILE', default='list_of_projects.txt',
                         type=str, help='File with symbols names')
-    parser.add_argument('-s', '--symbols_per_card', dest='symbols_per_card',
-                        metavar='N', default=4, type=int,
-                        help='How many symbols per card')
+    parser.add_argument('-o', '--order', dest='order',
+                        metavar='N', default=7, type=int,
+                        help='Order of projection [2,3,5,7]')
 
     args = parser.parse_args()
 
-    matrix = generate_matrix(args.symbols_per_card)
-    deck_size = len(matrix[0])
+    deck_size = args.order ** 2 + args.order + 1
+    projection = generate_projection(args.order)
 
     # Generate random symbols or use file as source?
     if args.random:
         symbols_names = load_symbols(deck_size)
     else:
-        symbols_names = load_symbols(deck_size, args.symbols_file)
+        symbols_names = load_symbols(deck_size, filename=args.symbols_file)
 
-    cards = generate_cards(matrix, symbols_names)
+    cards = generate_cards(projection, symbols_names)
 
-    print('{} cards with {} symbols on each and {} total symbols'.format(len(cards), len(cards[0]), len(matrix[0])))
+    print('{} cards/symbols with {} symbols on each'.format(len(cards), len(cards[0])))
+
     for card in cards:
         print(card)
+
+    filename = '{}-output.json'.format(args.order)
+    output_path = path.join(path.dirname(path.abspath(__file__)), filename)
+
+    with open(output_path, 'w') as fh:
+        fh.write(json.dumps(cards))
