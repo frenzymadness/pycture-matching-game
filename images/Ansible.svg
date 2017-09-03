@@ -1,1 +1,75 @@
-<svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"><defs><style>.cls-1{fill:#161b1f;}.cls-2{fill:#fff;}</style></defs><title>Ansible-Mark-RGB</title><path class="cls-1" d="M259.79289,152.92A106.79289,106.79289,0,1,1,153,46.12712,106.78709,106.78709,0,0,1,259.79289,152.92"/><path class="cls-2" d="M154.79931,112.89294l27.63843,68.20864-41.74528-32.8803Zm49.09554,83.922L161.38455,94.51424a6.85642,6.85642,0,0,0-6.58524-4.51358,7.08778,7.08778,0,0,0-6.76578,4.51358L101.37686,206.72648h15.96125l18.46744-46.268,55.11772,44.52993c2.21855,1.79319,3.81589,2.60411,5.89673,2.60411a7.62418,7.62418,0,0,0,7.80314-7.62872,10.11356,10.11356,0,0,0-.72829-3.1488"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 79.374998 79.375002"
+   version="1.1"
+   id="svg38"
+   inkscape:version="0.92+devel unknown"
+   sodipodi:docname="Ansible.svg">
+  <defs
+     id="defs32" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-48.571429"
+     inkscape:cy="560"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1848"
+     inkscape:window-height="1056"
+     inkscape:window-x="72"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata35">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Vrstva 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-217.62498)">
+    <g
+       id="g864"
+       transform="translate(204.48512,217.33629)">
+      <path
+         style="stroke-width:0.26458332"
+         inkscape:connector-curvature="0"
+         id="path8"
+         d="M -136.542,39.976188 A 28.255618,28.255618 0 1 1 -164.79762,11.720572 28.254084,28.254084 0 0 1 -136.542,39.976188"
+         class="cls-1" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
+         inkscape:connector-curvature="0"
+         id="path10"
+         d="m -164.32155,29.385695 7.31266,18.046869 -11.0451,-8.699579 z m 12.98986,22.204362 -11.24752,-27.06706 a 1.8140944,1.8140944 0 0 0 -1.74234,-1.194218 1.8753084,1.8753084 0 0 0 -1.79012,1.194218 l -12.34457,29.689489 h 4.22308 l 4.88617,-12.241742 14.58323,11.781877 c 0.587,0.474448 1.00963,0.689004 1.56018,0.689004 a 2.0172309,2.0172309 0 0 0 2.06458,-2.018432 2.6758794,2.6758794 0 0 0 -0.19269,-0.83312"
+         class="cls-2" />
+    </g>
+  </g>
+</svg>
