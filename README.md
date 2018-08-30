@@ -56,6 +56,34 @@ $ ./generator.py -o 2 -r
 ['ER', 'Ri', 'Au']
 ```
 
+After that, you can use generated JSON output to generate SVG templates
+which help you to put right symbols on right cards.
+
+```
+$ ./make-svg.py -c 2-output.json 
+list 0, card 1, symbol 1, name vJ
+list 0, card 1, symbol 2, name QU
+list 0, card 1, symbol 3, name Ck
+list 0, card 2, symbol 1, name 3D
+list 0, card 2, symbol 2, name yS
+list 0, card 2, symbol 3, name QU
+list 0, card 3, symbol 1, name J2
+list 0, card 3, symbol 2, name yS
+list 0, card 3, symbol 3, name Ck
+list 0, card 4, symbol 1, name 3D
+list 0, card 4, symbol 2, name Uy
+list 0, card 4, symbol 3, name Ck
+list 0, card 5, symbol 1, name J2
+list 0, card 5, symbol 2, name QU
+list 0, card 5, symbol 3, name Uy
+list 0, card 6, symbol 1, name vJ
+list 0, card 6, symbol 2, name yS
+list 0, card 6, symbol 3, name Uy
+list 0, card 7, symbol 1, name 3D
+list 0, card 7, symbol 2, name vJ
+list 0, card 7, symbol 3, name J2
+```
+
 ## License
 
 * Generator is licensed under MIT license
